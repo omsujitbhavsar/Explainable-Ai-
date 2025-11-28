@@ -1,0 +1,19 @@
+streamlit==1.39.0
+pandas==2.2.3
+requests==2.31.0
+numpy==1.26.4
+
+# Machine Learning / NLP
+transformers==4.41.2
+
+# LIME explainability
+lime==0.2.0.1
+
+# PyTorch CPU build (compatible with Streamlit Cloud)
+torch==2.2.0+cpu
+torchvision==0.15.2+cpu
+torchaudio==2.2.0+cpu
+-f https://download.pytorch.org/whl/cpu/torch_stable.html
+
+# Security & Encryption
+cryptography==42.0.5
