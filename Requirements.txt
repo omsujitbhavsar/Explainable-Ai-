@@ -10,10 +10,10 @@ transformers==4.41.2
 lime==0.2.0.1
 
 # PyTorch CPU build (compatible with Streamlit Cloud)
-torch==2.2.0+cpu
-torchvision==0.15.2+cpu
-torchaudio==2.2.0+cpu
 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
 
 # Security & Encryption
 cryptography==42.0.5
